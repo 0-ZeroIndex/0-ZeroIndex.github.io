@@ -44,8 +44,9 @@ a {
     }
     .logo-svg{
         width: 15rem;
+        margin-left: 3rem;
       }
-      h1{
+    h1{
         font-size: 3rem;
       }
 }
