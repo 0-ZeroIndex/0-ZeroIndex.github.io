@@ -9,7 +9,7 @@
   body {
     font-family: 'Share Tech Mono' !important;
     background-color: #000000 !important;
-    padding: 5rem;
+    padding-top: 5rem;
   }
   
   h1{
@@ -35,4 +35,17 @@
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+@media screen and (max-width:768px) {
+    .body{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .logo-svg{
+        width: 15rem;
+      }
+      h1{
+        font-size: 3rem;
+      }
 }
